@@ -33,7 +33,28 @@ Compiling and running
 --------
 
 In order to compile/run this application you probably need to have CUDA SDK installed and your NVIDIA graphics card needs to have CUDA Capability at least 2.0.
-All other necessary DLLs are included in this package.
+All other necessary DLLs are included in this package. You may need to use different libraries depending on your architecture.
+
+---
+
+### Building with CMake and Compiling with Visual Studio 15 2017
+
+To build the CMake project, you can use
+```
+mkdir build
+cmake . -B build -G "Visual Studio 15 2017 Win64"
+```
+You can of course use other generators, use `cmake --help` if you want a list.
+
+To compile you can simply do
+```
+cd build
+msbuild Game_of_life_CUDA.sln /target:gui
+```
+
+---
+
+If you use newer versions of visual studio, you may need to change `/target` to `-target`.
 
 There is also compiled executable in the bin folder.
 
