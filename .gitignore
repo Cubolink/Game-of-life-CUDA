@@ -14,3 +14,5 @@ ehthumbs.db
 
 # IDE stuff
 .idea/
+# CLion Build
+src/cmake-build-debug/
