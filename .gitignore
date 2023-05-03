@@ -11,3 +11,6 @@ src/ipch
 # Windows rubbish
 Thumbs.db
 ehthumbs.db
+
+# IDE stuff
+.idea/
