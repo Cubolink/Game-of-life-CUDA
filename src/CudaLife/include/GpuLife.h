@@ -1,7 +1,8 @@
 #pragma once
 #include "OpenGlCudaHelper.h"
 #include "CudaLifeFunctions.h"
-#include "CpuLife.h"
+//#include "CpuLife.h"
+#include "stdafx.h"
 
 namespace mf {
 

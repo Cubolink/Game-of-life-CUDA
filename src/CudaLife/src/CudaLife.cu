@@ -2,6 +2,7 @@
 
 #include <assert.h>
 #include <cuda_runtime.h>
+#include <algorithm>
 
 #include "OpenGlCudaHelper.h"
 

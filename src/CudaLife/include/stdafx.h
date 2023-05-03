@@ -17,13 +17,13 @@
 //#include <windows.h>
 #include <ppl.h>
 
-#include <GL/glew.h>
-#include <GL/freeglut.h>
+#include "GL/glew.h"
+#include "GL/freeglut.h"
 
 #define GLM_FORCE_RADIANS  // Force radians in GLM library.
 #pragma warning(push)
 #pragma warning(disable: 4201)  // Nonstandard extension used : nameless struct/union.
-#include <glm/glm.hpp>
+#include "glm/glm.hpp"
 #pragma warning(pop)
 
 #include <cuda_runtime.h>

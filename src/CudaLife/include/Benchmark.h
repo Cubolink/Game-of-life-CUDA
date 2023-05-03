@@ -1,6 +1,11 @@
 #pragma once
 #include "CpuLife.h"
 #include "GpuLife.h"
+#include <fstream>
+#include <chrono>
+#include <algorithm>
+#include <vector>
+#include <functional>
 
 namespace mf {
 

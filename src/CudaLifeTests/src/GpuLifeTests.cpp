@@ -1,6 +1,8 @@
 #include "stdafx.h"
-#include "CudaLife/GpuLife.h"
+#include "GpuLife.h"
 #include "LifeTests.h"
+
+#include <gtest/gtest.h>
 
 namespace mf {
 

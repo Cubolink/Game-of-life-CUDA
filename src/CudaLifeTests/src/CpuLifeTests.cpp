@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "CudaLife/CpuLife.h"
+#include "CpuLife.h"
 #include "LifeTests.h"
 
 namespace mf {

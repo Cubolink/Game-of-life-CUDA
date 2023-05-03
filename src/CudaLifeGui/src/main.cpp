@@ -1,9 +1,9 @@
 #include "stdafx.h"
-#include "CudaLife/OpenGlCudaHelper.h"
-#include "CudaLife/CpuLife.h"
-#include "CudaLife/GpuLife.h"
-#include "CudaLife/CudaLifeFunctions.h"
-#include "CudaLife/Benchmark.h"
+#include "OpenGlCudaHelper.h"
+#include "CpuLife.h"
+#include "GpuLife.h"
+#include "CudaLifeFunctions.h"
+#include "Benchmark.h"
 
 namespace mf {
 

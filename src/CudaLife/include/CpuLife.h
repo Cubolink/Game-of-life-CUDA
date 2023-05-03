@@ -1,5 +1,7 @@
 #pragma once
 
+#include "stdafx.h"
+
 namespace mf {
 
 	template<typename NoCppFileNeeded = int>
